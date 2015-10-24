@@ -1,0 +1,298 @@
+/*
+
+
+
+Theme Name: Intonasi Mono
+
+Theme URI: http://amanruzaini.com/blog
+
+Description: A free WordPress theme, brought to you by <a href="http://amanruzaini.com/blog">Aman Ruzaini</a>.
+
+Version: 1.0
+
+Author: Aman Ruzaini
+
+Tags: Right Sidebar, 2 Column, Minimal
+
+
+
+*/
+
+
+
+body          	{ background: #ffffff url("images/bg.jpg") repeat-x; margin: 0; padding: 0; }
+
+
+
+body {
+
+    font-family: Arial, Helvetica, Verdana, san serif;
+
+    font-size: 12px;
+
+	font-weight: normal;
+
+    color: #333333;
+
+	margin:0;
+
+	padding:0;
+
+	list-style:none;
+
+}
+
+*			{ margin: 0; padding: 0; }
+
+h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; font-weight: normal; }
+
+ul			{ list-style: none; margin: 0; padding: 0; }
+
+a			{ color: #666666; text-decoration: none; outline-style:none; font-weight:bold; }
+
+a:hover		{ color: #cccccc; text-decoration: none; }
+
+em			{ font-style: italic; }
+
+.underline	{ text-decoration:underline;}
+
+small		{ font-size: 80%; }
+
+strong		{ font-weight: bold; }
+
+img			{ border: 0; }
+
+.spacer		{ height: 1px; font-size: 1px; line-height: 1px; clear: both; }
+
+.clear		{ clear:both; }
+
+blockquote	{ margin :0 0 10px 20px;padding:25px 0 0 10px; }
+
+code 		{ background : #cccccc;padding-left:3px;padding-right:3px;text-align:left; }
+
+/* Structure */
+
+
+
+#wrapper {width:960px;margin:0 auto;}
+
+#header {width:960px;height:70px;margin:50px auto 0 auto;border-bottom:1px #eee solid;}
+
+
+
+
+
+/* Header */
+
+#header #logo {width:450px;height:70px;margin:0 0 0 50px;float:left;}
+
+#header #logo h1 a {float:left;font-family:Arial;font-size:36px;letter-spacing:-2px;color:#000000;}
+
+#header #logo h3 {float:left;font-size:12px;font-style:italic;}
+
+
+
+/* Navigation */
+
+#header #navigation {float:left;margin-top:45px;}
+
+#header #navigation ul {float:right;width:450px;text-align:right;}
+
+#header #navigation ul li {float:right;}
+
+#header #navigation ul li a {float:left;display:block;margin:0 12px;}
+
+
+
+/* Post */
+
+
+
+#content {margin:50px 0 0;padding:0 0 0 50px;width:910px;}
+
+
+
+#left-col {float:left;width:550px;}
+
+#left-col h2 a{font-size:36px;font-weight:normal;letter-spacing:-1px;color:#000000;padding:2px 0 0;}
+
+#left-col h2 a:hover{color:#666666;}
+
+#left-col h2.pagetitle{background:#eeeeee;font-size:18px;margin:10px 0;padding:5px 15px;border-bottom:1px #333 dotted;}
+
+#left-col span.post-date{font-size:12px;color:#999999;padding:5px 0 5px;}
+
+#left-col .post-info {border-bottom:1px #eee solid;padding:0 0 5px 0;}
+
+#left-col .text{width:530px;margin-top:5px;padding:10px;overflow:hidden;}
+
+#left-col .text p {margin:0 0 18px;}
+
+#left-col .text ol {margin:0 0 10px 30px;}
+
+#left-col .text ul{list-style:disc;list-style-position:outside;margin: 0 0 10px 25px;}
+
+#left-col .text li{padding:3px;width: 90%;}
+
+#left-col .text h1{font-size:19px;margin:30px 0 5px;}
+
+#left-col .text h2{font-size:17px;margin:20px 0 5px;}
+
+#left-col .text h3{font-size:15px;margin:20px 0 5px;}
+
+#left-col .text blockquote{background:url("images/quotes.jpg") no-repeat scroll 10px 0px;}
+
+#left-col .post{margin:0 0 30px;overflow:hidden;}
+
+#left-col .metadata {display:block;margin:10px 0 50px;}
+
+#left-col a.read-more{background:url("images/btn-readmore.gif") no-repeat;width:70px;height:21px;display:block;float:left;padding:4px 5px 5px 13px;color:#ffffff;font-size:11px;}
+
+#left-col a.read-more:hover {background:url("images/btn-readmore_hover.gif") no-repeat;width:70px;height:21px;display:block;float:left;padding:4px 5px 5px 13px;color:#999999;font-size:11px;}
+
+#left-col a.comment{margin:6px;display:block;float:left;}
+
+#left-col span.category{margin:6px;display:block;float:left;font-size:11px;width:450px;}
+
+#left-col li.category{margin:6px;display:block;}
+
+#left-col li.tag{margin:6px;display:block;}
+
+#left-col .navigation {font-size:15px;text-align:center;padding:20px 0;border-top:1px #eee dashed;}
+
+#left-col .navigation .alignleft a {float:left;}
+
+#left-col .navigation .alignright a {float:right;}
+
+#left-col .category-tags span.tags p {font-size:10px;}
+
+#left-col a.post-edit-link {border:1px #000 dashed;padding:5px;margin:5px;}
+
+#left-col .wp-caption {background-color:#F3F3F3;border:1px solid #DDDDDD;margin:10px;padding-top:4px;text-align:center;}
+
+
+
+#right-col {float:left;width:260px;margin:0 50px 0 50px;}
+
+#right-col ul li {margin:24px 0 25px;}
+
+#right-col li h2.widgettitle {font-size:14px;border-bottom:1px #eee solid;padding:5px 0 2px 10px;}
+
+#right-col li ul li {margin:10px 10px 5px;border-bottom:1px #e6e6e6 dashed;}
+
+#right-col #twitter_div {margin:0 0 25px 0;}
+
+#right-col #twitter_div a {color:#999999;}
+
+#right-col #twitter_div a:hover {color:#333333;}
+
+#right-col #twitter_div h2 {background:url("images/twitter.gif") no-repeat;height:25px;padding:5px 0 0 28px;font-size:14px;border-bottom:1px #eee solid;margin:32px 0 0;}
+
+#right-col #twitter_update_list li {margin:10px 10px 5px;font-size:11px;text-align:right;border-bottom:1px #e6e6e6 dashed;padding:0 0 5px;}
+
+#right-col #twitter_update_list li span {display:block;text-align:left;}
+
+#right-col #calendar_wrap {margin: 10px 0 10px 40px;text-align: center;}
+
+#right-col #calendar_wrap td{padding: 4px;}
+
+#searchform {margin:0 0 0 25px;}
+
+#searchform input {width:185px;background:url("images/search.gif") no-repeat right;border:1px solid #999999;padding:3px 23px 3px 3px;}
+
+
+#comments {margin:15px 0;}
+
+#comments h3.comment-title {border-top:1px dashed #000;padding:15px 15px;font-size:16px;}
+
+#comments .commentlist {list-style:none;}
+
+#comments .commentlist li {border-top:1px #e6e6e6 solid;padding:25px 15px 25px;overflow:hidden;}
+
+#comments .commentlist li .avatar {float:left;width:40px;}
+
+#comments .commentlist li .author-meta {font-size:10px;float:left;padding:0 15px;width:100px;}
+
+#comments .commentlist li .comment-text {font-size:11px;display:block;float:left;width:350px;}
+
+#comments #commentform {margin:15px 0 0 20px;}
+
+#comments #commentform p {margin:0;}
+
+#comments #commentform input, textarea {margin:2px;padding:2px;font-family:Arial;font-size:12px;}
+
+#comments #commentform .textarea {width:450px;}
+
+
+
+#footer {background:#666666 url("images/bg-footer.jpg") repeat-x;color:#ccc;padding:20px 0 0;margin:25px 0 0;}
+
+#footer a {color:#fff;font-weight:normal;}
+
+#footer a:hover {color:#999;}
+
+
+
+#fcontent {width:960px;margin:0 auto 20px;padding:20px 0 20px 0;}
+
+#fcontent h2 {border-bottom:1px #999999 solid;padding:0 10px 4px;margin:0 0 4px;font-size:14px;color:#fff;}
+
+#fcontent p {padding:0 10px 0;color:#fff;}
+
+#fcontent .about {margin:0 30px 0 30px;width:260px;float:left;}
+
+#fcontent .about .social-net {width:140px;margin:35px 0 0 0;}
+
+#fcontent .about .social-net ul li {color:#fff;padding:0 20px;margin:8px 10px;}
+
+#fcontent .about .social-net ul li.facebook {background:url("images/fb.gif") no-repeat;display:block;}
+
+#fcontent .about .social-net ul li.twitter {background:url("images/tw.gif") no-repeat;display:block;}
+
+#fcontent .about .social-net ul li.last {background:url("images/ls.gif") no-repeat;display:block;}
+
+#fcontent .about .social-net ul li.flickr {background:url("images/fr.gif") no-repeat;display:block;}
+
+#fcontent .posts {margin:0 30px 0 30px;width:260px;float:left;}
+
+#fcontent .posts ul li {background:url("images/star.gif") no-repeat;display:block;padding:0 10px 2px 20px;margin:8px 10px;color:#ccc;}
+
+#fcontent .posts ul em {display:block;text-align:right;padding:2px 0;}
+
+#fcontent .comments {margin:0 30px 0 30px;width:260px;float:left;}
+
+#fcontent .comments ul li {background:url("images/bubble.gif") no-repeat;display:block;padding:0 20px 2px;margin:0 10px;color:#ccc;}
+
+#fcontent .comments ul em {display:block;padding:0 20px 7px 0;text-align:right;}
+
+
+
+#info-footer {width:960px;margin:0 auto;padding:50px 0 40px 0;}
+
+#info-footer #ifcontent {padding:10px 0;border-top:1px #999999 solid;}
+
+#info-footer .powered {float:left;font-size:11px;margin:0 0 0 10px;}
+
+#info-footer .powered ul li {color:#fff;}
+
+#info-footer .nav-links {float:right;font-size:12px;}
+
+#info-footer .nav-links ul li {float:right;padding:2px;color:#fff;}
+
+#info-footer .nav-links ul li img {padding:2px 0 0 0;}
+
+#info-footer .nav-links ul li a {float:left;display:block;margin:0 12px;}
+
+
+/* fix css image alignment by Ian */
+
+img.aligncenter { display: block;margin-left: auto;margin-right: auto;}
+
+img.alignright { padding: 4px; margin: 0 0 2px 2px; display: inline;}
+
+img.alignleft { padding: 4px; margin: 0 7px 2px 0; display: inline; }
+
+.alignright { float: right;}
+
+.alignleft { float: left;}
+
